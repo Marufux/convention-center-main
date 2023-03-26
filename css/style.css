@@ -39,7 +39,9 @@ body {
         width: 100%
     }
 
-    img:not(.mobile-image) {
+    /* img:(.mobile-image) {
         display: none;
-    }
+    } */
 }
+
+/* navbar and carousel ends  */
