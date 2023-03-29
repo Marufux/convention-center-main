@@ -96,7 +96,8 @@
     </header>
     <!-- navbar and carousel ends  -->
 
-    <section class="container">
+    <section class="container mb-5">
+
         <div class="row d-flex align-items-center justify-content-between">
             <div class="col-12 col-lg-6">
                 <img style="max-width: 100%;" src="images/wedding.png" alt="">
@@ -119,9 +120,25 @@
                 </button>
             </div>
         </div>
+        <div class="toast ms-auto" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <div class="toast-body">
+                    20% off on next booking
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+
+        </div>
     </section>
 
 
+    <script>
+        window.onload = (event) => {
+            let myAlert = document.querySelector('.toast');
+            let bsAlert = new bootstrap.Toast(myAlert);
+            bsAlert.show();
+        }
+    </script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
