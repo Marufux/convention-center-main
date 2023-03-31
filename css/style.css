@@ -4,6 +4,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* navbar */
 
@@ -42,6 +45,12 @@ body {
     /* img:(.mobile-image) {
         display: none;
     } */
+}
+
+@media only screen and (max-width:770px) {
+    #hot-deal {
+        top: 0px;
+    }
 }
 
 /* navbar and carousel ends  */
