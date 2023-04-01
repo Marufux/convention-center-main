@@ -53,4 +53,10 @@ section {
     }
 }
 
+@media only screen and (max-width:576px) {
+    .faq {
+        width: 360px;
+    }
+}
+
 /* navbar and carousel ends  */
